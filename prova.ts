@@ -1,26 +1,19 @@
-let numero: number = 23;
-let stringa: string = "marco";
-let booleano: boolean = true;
-let array: number[] = [1, 2, 3, 4];
-let arrayvs: Array<string> = ["marco", "luca", "giuseppe"];
-let tupla: [string, number, boolean] = ["Marco", 45, false];
+// Aggiungere annotazioni di tipo a ciascuna di queste variabili.
 
-function somma(a: number, b: number = 3): number {
-  return a + b;
-}
+let country: string = "Italy";
 
-console.log(somma(numero));
+let year: undefined = undefined;
 
-array.sort((a, b) => b - a);
+let averageTemperature: number = 23.6;
 
-console.log(array);
+let visited: boolean = true;
 
-let nuovoArray = array.map((a) => {
-  if (a === 2) {
-    return Number(a);
-  } else {
-    return String(a);
-  }
-});
+let currency: null = null;
+// Modificare le annotazioni di tipo su queste variabili in modo che siano corrette.
 
-console.log(nuovoArray);
+let population: number = 47_450_795;
+
+let isSummer: boolean = false;
+
+let languages: string = "Spanish, English";
+// ----
